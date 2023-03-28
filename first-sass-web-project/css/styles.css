@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container, .test-function {
+  max-width: 576px;
+  margin-inline: auto;
+}
+
+header nav {
+  text-align: center;
+}
+
+main {
+  margin-block-start: 2rem;
+}
+main h1 {
+  color: blue;
+}
+main ol li {
+  list-style-type: lower-alpha;
+}
+main ol li:hover {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .container, .test-function {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container, .test-function {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container, .test-function {
+    max-width: 1140px;
+  }
+}
+.test-function {
+  width: 220px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.test-function .wow {
+  color: white;
+}
+
+.icon-#fff {
+  background-color: #fff;
+}
+
+.icon-#fff {
+  background-color: #fff;
+}
+
+.icon-#f90 {
+  background-color: #f90;
+}
+
+/*# sourceMappingURL=styles.css.map */
